@@ -1,0 +1,626 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* This is container start */
+
+.container{}
+
+
+
+
+
+
+/* Header */
+.headerContainer{
+
+}
+
+.header_Top_Div{
+    background-color: #fc8934;
+    text-align: center;
+    color: white;
+    height: 35px;
+    padding: 5px 0;
+}
+
+
+
+
+
+
+
+.header_Mid_Div{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+.header_mid_div_section01{
+}
+.search_icon i{
+    margin-left: 10%;
+    color: #fc8934;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+}
+/* .search_icon i:hover::after{
+    content:'Search';
+    position: absolute;
+    background-color: #fc8934;
+    color: white;
+    bottom: -30px;
+    left: -100%;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    white-space: nowrap;
+    } */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .header_mid_div_section02{
+    }
+    
+    
+    .logo_box img{
+        width:120px;
+        margin-left: 5%;
+        cursor: pointer;
+}
+
+
+
+
+
+
+.header_mid_div_section03{
+}
+
+.header_mid_div_section03 i{
+    margin-left: 20%;
+    font-size: 25px;
+    color: #fc8934;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.header.header_Nav_Div{}
+
+
+.navmanu{
+    background-color: #f3f3f3;
+    height: 120px;
+}
+
+.navmanu ul {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+}
+
+
+.navmanu ul li {
+    list-style: none;
+    text-align: center;
+    padding: 15px 10px;
+
+}
+
+
+.navmanu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size:15px;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+}
+
+
+
+
+.navmanu ul li a::before {
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    height: 2px;
+    width: 0;
+    bottom: -5px;
+    transition: 0.2s ease-in;
+}
+.navmanu ul li a:hover::before {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* Main */
+
+.main_container{}
+
+
+
+.home_section01{
+    height: 90vh;
+    background-color: green;
+    background-image: url(../background_images/web_Banner_7.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+.main_all_product{
+    margin-bottom:80px;
+}
+
+.product_container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 40px;
+    column-gap: 20px;
+}
+
+
+.product01{
+    height: 410px;
+    border: 1px solid #e1e1e1;
+}
+
+
+/* THis is a product images */
+.images1{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/ajwa.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images2{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/415f1dd5c2f2a7ee69f954b8d9d6f6ce.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images3{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/akroat-03_336fcd32-d311-4d2c-b87c-9b81a1dea9f2.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images4{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/Black-Cumin.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images5{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/chola-dal.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images6{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/Danadarjholagur1kg.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images7{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/Egyptian-Medjool-Dates_6f3ab996-bc77-42f9-85af-c2b92f313430.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images8{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/Dates-sukkari-3kg-Discount-2.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images9{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/GB_Iftar_Combo.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images10{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/ghee-500gm.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images11{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/GPStarRamadancombo.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images12{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/honey-nuts-441x441-1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images13{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/kalojira-honey-500.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images14{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/Mabroom-Dates.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images15{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/mastraid-oil-5-leter.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images16{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/WhatsAppImage2025-01-12at6.51.00PM.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images17{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/WhatsAppImage2024-05-14at5.08.39PM_1.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images18{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/maccoffe-original-200gm.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images19{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/Mabroom-Dates.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.images20{
+    width: 90%;
+    margin: 10px auto;
+    height: 220px;
+    border: 1px solid #ff4f4f;
+    background-image: url(../all_proudct_images/ajwa.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+.images_datels{
+}
+.Ramadan_btn{
+    margin-left: 80px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fc8934;
+    padding: 2px 5px;
+    color: white;
+}
+.btn{
+    margin-left: 60px;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #fc8934;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #f36500;
+    cursor: pointer;
+  
+}
+
+
+/* More Product  */
+
+.shope_more{
+    margin-left: 45%;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #fc8934;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+
+
+
+.collection_products{
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.collection_product{
+    display: flex;
+}
+.leftSide_product{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 40px;
+    margin-top: 40px;
+    gap: 20px;
+}
+.rightSide_product{
+    width: 50%;
+}
+
+.image_section1{
+    background-image: url(../all_proudct_images/mastraid-oil-5-leter.webp);
+    height: 150px;
+    background-size:cover;
+    width: 100%;
+    background-position: center;
+}
+.image_section2{
+    background-image: url(../all_proudct_images/honey-nuts-441x441-1.jpg);
+    height:150px;
+    background-size: cover;
+    width: 80%;
+    background-position: top;
+}
+.image_section3{
+    background-image: url(../all_proudct_images/ghee-500gm.webp);
+    height: 150px;
+    background-size: cover;
+    width: 80%;
+    background-position: top;
+}
+.image_section4{
+    background-image: url(../all_proudct_images/ajwa.jpg);
+    height: 150px;
+    background-size: cover;
+    width:80%;
+    background-position: top;
+}
+.image_section5{
+    background-image: url(../all_proudct_images/maccoffe-original-200gm.webp);
+    height: 150px;
+    background-size: cover;
+    width:80%;
+    background-position: top;
+}
+
+
+
+
+
+
+/* footer */
+
+.footer_container{
+    display: grid;
+    grid-template-columns:3fr 1fr 1fr 2fr;
+    margin-bottom: 50px;
+}
+
+.footer_child_div1{
+    padding: 10px;
+}
+.footer_logo img{
+    width: 120px;
+    padding-bottom: 20px;
+}
+
+
+
+.footer_child_div2{
+    padding: 10px;
+}
+.footer_child_div2 h3 a{
+    color: #fc8934;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.footer3link a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.footer3link a::before {
+    content: "";
+    position: absolute;
+    background-color:#fc8934;
+    height: 1.5px;
+    width: 0;
+    bottom: -5px;
+    transition: 0.2s ease-in;
+}
+.footer3link a:hover{
+    color: #fc8934;
+}
+.footer3link a:hover::before {
+    width: 100%;
+}
+
+
+
+.footer_child_div3{
+    margin-left: 20px;
+    padding: 10px;
+}
+.footer_child_div3 h3{
+    color: #fc8934;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer2link a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+
+.footer2link a::before {
+    content: "";
+    position: absolute;
+    background-color:#fc8934;
+    height: 1.5px;
+    width: 0;
+    bottom: -5px;
+    transition: 0.2s ease-in;
+}
+.footer2link a:hover{
+    color: #fc8934;
+}
+.footer2link a:hover::before {
+    width: 100%;
+}
+
+
+.footer_child_div4{
+margin-left: 20px;
+padding-left: 20px;
+padding: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.footer_last_container{
+    background-color: #fc8934;
+    height: 80px;
+}
+.footer_last_content p{
+    text-align: center;
+    color: white;
+}
+
+.footer_last_content samp i{
+    margin-top: 20px;
+    font-size:20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
